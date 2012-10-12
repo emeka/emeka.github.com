@@ -42,6 +42,7 @@ html, body {
 .twitter-follow-button {
     float: right;
     margin-top: 6px;
+    margin-right: -20px;
 }
 
 /* tag_box ======================================================== */
