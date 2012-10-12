@@ -6,7 +6,7 @@ html, body {
   margin-bottom: 0;
 }
 .container > footer {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .container > footer p {
   text-align: center; /* center align it with the container */
