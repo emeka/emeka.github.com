@@ -10,12 +10,12 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Emeka Mosanya
-tagline: People and Technology
+tagline: Consultant and Prime Mover
 author :
   name : Emeka Mosanya
   email : emeka@mosanya.net
   github : emeka
-  twitter : EmekaMosanya
+  twitter : @EmekaMosanya
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
