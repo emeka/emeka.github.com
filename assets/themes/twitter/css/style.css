@@ -45,6 +45,11 @@ img.bio{
     float: left;
 }
 
+/* Post summary on home page*/
+.summary {
+    margin-bottom: 20px;
+}
+
 .topbar .btn {
     border: 0;
 }
