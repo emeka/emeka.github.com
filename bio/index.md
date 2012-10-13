@@ -2,8 +2,9 @@
 layout: page
 title: "Bio"
 group: navigation
-tweet: checkout @EmekaMosanya bio
+tweet: checkout my bio
 hashtags: #bio
+bitmark: bit.ly/RWjLEO
 
 ---
 {% include JB/setup %}
