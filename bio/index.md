@@ -2,11 +2,15 @@
 layout: page
 title: "Bio"
 group: navigation
+tweet: checkout @EmekaMosanya bio
+hashtags: #bio
+
 ---
 {% include JB/setup %}
 
-![Emeka Mosanya](/assets/images/picture.jpg "Emeka Mosanya")
+<img class="bio" alt="Emeka Mosanya" src="/assets/images/picture.jpg"/>
 
+<div class="bio">
 Emeka is an Electrical Engineer and holds a Ph.D. in Computer Science from the
 Swiss Federal Institute of Technology in Lausanne (EPFL).
 He has been developing software for more than 20 years, designed custom processors and worked on the commodity
@@ -15,3 +19,8 @@ successful projects at Ubicall Communications S.A., Belgacom Mobile S.A., Algori
 and is currently providing his services to the Financial Times where he is applying SOOP principles to automate
 their infrastructure provisioning. Emeka is a black belt judoka who loves long distance cycling and
 cold water scuba diving.
+<br/>
+<a href="http://www.linkedin.com/in/emekamosanya">LinkedIn Profile</a>
+</div>
+
+

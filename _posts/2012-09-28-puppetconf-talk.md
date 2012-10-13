@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "My talk at PuppetConf2012"
 category : puppet
 tags : [puppet, soop, puppetconf, talk]
 ---
