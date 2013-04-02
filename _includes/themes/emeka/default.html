@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <script>!function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, "script", "twitter-wjs");</script>
+
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+</head>
+
+<body>
+
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+            <ul class="nav">
+                {% assign pages_list = site.pages %}
+                {% assign group = 'navigation' %}
+                {% include JB/pages_list %}
+            </ul>
+
+            <a href="https://twitter.com/EmekaMosanya" class="twitter-follow-button" data-show-count="false"
+               data-size="large" data-align="right" data-show-screen-name="false">Follow @EmekaMosanya</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="content">
+        {{ content }}
+    </div>
+
+    <footer>
+        <p><!--a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img
+                alt="Creative Commons License" style="border-width:0 padding-left:10px"
+                src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png"/></a-->Copyright &copy; 2012 <a
+                xmlns:cc="http://creativecommons.org/ns#" href="mailto:{{ site.author.email }}"
+                property="cc:attributionName"
+                rel="cc:attributionURL">{{ site.author.name }}</a>. This work is licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons
+                Attribution-ShareAlike 3.0 Unported License</a>.</p>
+
+    </footer>
+
+</div>
+<!-- /container -->
+
+{% include JB/analytics %}
+</body>
+</html>
