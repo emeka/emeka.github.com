@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My talk at PuppetConf2012"
-category : puppet
+category : IT
 tags : [puppet, soop, puppetconf, talk]
 tweet: Checkout this talk about Service Oriented Operation and Provisioning
 hashtags: #puppetconf #soop #puppet #devops
