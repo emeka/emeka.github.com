@@ -15,4 +15,4 @@ This was a good opportunity to describe my concept of SOOP (Service Oriented Ope
 as developped for the Financial Times.  Stay posted I am currently writing an article giving more details
 on SOOP, the rationals and the lessons learned when trying to apply it to a medium sized organisation.
 
-<iframe class="slideshare" src="http://www.slideshare.net/slideshow/embed_code/14507522" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"> </iframe>Goodbye
+<iframe class="slideshare" src="http://www.slideshare.net/slideshow/embed_code/14507522" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"> </iframe>
