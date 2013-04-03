@@ -8,7 +8,7 @@ bitmark: bit.ly/OxxC4L
 ---
 {% include JB/setup %}
 
-In September 2012, I had the chance to present a talk at PuppetConf 2012.  The tile of may talk was
+In September 2012, I had the chance to present a talk at PuppetConf 2012.  The tile of my talk was
 [Using Service Oriented Operation and Provisioning at Financial Times](http://www.slideshare.net/emekamosanya/using-service-oriented-operation-and-provisioning-at-financial-times).
 
 This was a good opportunity to describe my concept of SOOP (Service Oriented Operation and Provisioning)
