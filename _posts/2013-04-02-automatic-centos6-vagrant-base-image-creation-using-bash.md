@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Imagine: an Automatic Centos 6 base image creation using bash"
-category: IT
 tags: [DevOps, provisioning]
 tweet: Checkout this little tool to create base images
 hashtags: #bash #devops #kickstart
