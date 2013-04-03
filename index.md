@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
