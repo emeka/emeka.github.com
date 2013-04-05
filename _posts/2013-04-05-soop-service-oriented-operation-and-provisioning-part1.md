@@ -20,13 +20,14 @@ Part two will focus on the implementation, called FT Cloud, and how it was recei
 teams.  Part three will present some thoughts about the model and will propose some improvements.
 
 It is important to make a clear distinction between the model and its implementations. No implementation can
-save a flawed model but a good model can be implemented in many ways.
+save a flawed model but a good model can be implemented in many ways.  This model is far from perfect but is a first
+step in the right direction.
 
 The Objective
 =============
 
-Our objective were to reduce the *cycle time* between business requirements and delivery to customers. Here we use the
-concept of cycle time as described in [\[1, p. 62\]][2], where time is the universal currency:
+Our objective were to reduce the *cycle time* between business requirements and product delivery to customers.
+Here we use the concept of cycle time as described in [\[1, p. 62\]][2], where time is the universal currency:
 
 *"Everything that goes wrong in a process shows up as a time delay.
 Defects add delay. Complexity slows things down. Low productivity shows up as taking more time. Change intolerance makes
@@ -34,7 +35,7 @@ things go very slowly. Building the wrong thing adds a huge delay. Too many thin
 down the flow. Time, specifically cycle time, is the universal lean measurement that alerts us when anything is going
 wrong. A capable development process is one that transforms identified customer needs into delivered customer value at
 a reliable, repeatable cadence, which we call cycle time. It is this cycle time that paces the organization, causes
-value to flow, forces quality to be built into the product, and clarifies the capacity of the organisation."*
+value to flow, forces quality to be built into the product, and clarifies the capacity of the organization."*
 
 When we started to look at our cycle time during the end of 2010, the result was not very good.  We were only
 able to release to production every four to six weeks and it was a major endeavour which often tied several of people
@@ -51,19 +52,20 @@ The problems were multiple and could be classified in two categories:
 
 The sections below will address each of these concerns separately.
 
-Organisational Frictions
+Organizational Frictions
 ------------------------
 
 The first problem is organizational frictions due to misalignment of priorities and dilution of responsibilities
 between teams.
 
-In our case, it was the classical separation between operation and product teams where:
+In our case, it was the classical divide between operation and product teams where:
 * product teams are close to the business and responsible for developing and delivering new products fast,
-* operation teams are far from the business and responsible for existing product availability and new products platform
-creation.
+* operation teams are further away from the business and responsible for existing product availability and new product
+platform creation.
 
-Their priorities are not aligned and even in opposition.  In addition, they share the product
+Their priorities are not aligned and even in opposition but they share the product
 delivery responsibilities since operation owns the platform on which products are deployed.
+This is source of tension.
 
 The result was the situation illustrated in the diagram below where the operation teams acted as gates during
 product delivery.  Each time a product had to cross a gate, precious time and energy was lost in
@@ -71,9 +73,9 @@ product delivery.  Each time a product had to cross a gate, precious time and en
 * task switching and
 * delays.
 
-Since the operation teams must serve several product teams, they became an obvious bottleneck.
+Since the operation teams must serve several product teams, they are an obvious bottleneck.
 
-<img class="diagram" alt='Organisational Frictions Diagram' src='/assets/drawings/soop/organizational-friction.png'/>
+<img class="diagram" alt='Organizational Frictions Diagram' src='/assets/drawings/soop/organizational-friction.png'/>
 
 But there is an other side on this story: as product teams did not take full responsibility of product delivery
 and availability, they had the tendency to throw things over the wall brushing over non functional
@@ -82,7 +84,7 @@ in turn was feeding mistrust in operation teams.
 
 It must be emphasised that the inefficiencies are not due to teams or individual competencies.  Each team member were
 highly qualified professional with an excellent knowledge of their core specialities.  The problems described here are
-the result of organizational structure.
+the result of organizational structure, i.e. ownership, responsibility and control.
 
 Long Feedback Loop
 ------------------
@@ -107,11 +109,13 @@ maintenance and are able to create the required infrastructure and deploy to it 
 
 To achieve this, we must remove the gates and replace them with automation.  The product teams
 choose or develop the right automation for their specific needs.  The operation teams either provide design patterns and
-specialised advice to product teams or develop reusable automation libraries.  In any case, we need to keep in mind that
-product team must have the freedom to chose since they have the final responsibility and it is likely that the right
-tool for the job will be already available from an external provider.
+specialised advice to product teams or develop reusable automation libraries.  In any case,
+product team must have the freedom to chose since they have the final responsibility.
 
-<img class="diagram" alt='Organisational Vision Diagram' src='/assets/drawings/soop/organizational-vision.png'/>
+In the future, it will be more and more likely that the right tool for the job will be already available from an
+external provider.
+
+<img class="diagram" alt='Organizational Vision Diagram' src='/assets/drawings/soop/organizational-vision.png'/>
 
 To reduce the feedback loop, we follow the Continuous Delivery principles
 [\[2, p. 113\]][2][\[3\]][3]:
@@ -169,37 +173,34 @@ The service definition artifact is the cornerstone of the SOOP model.  It must e
 deploy a service including any application binaries, database schema and default configuration.  The service definition
 is the blueprint of a service and can be the result of a build tool that gathers all the required
 components and packs them.  It is likely that service components will themselves be composed of building blocks
-provided by building block libraries.
+provided by libraries.
 
-<img class="diagram" alt='Organisational Vision Diagram' src='/assets/drawings/soop/service-definition-details.png'/>
+<img class="diagram" alt='Organizational Vision Diagram' src='/assets/drawings/soop/service-definition-details.png'/>
 
 Since the service definition is an artifact, it can be stored and exchanged.  It can also participate in a continuous
-delivery pipeline and depending on the acceptance criteria, it will reach production as is or it will be discarded.  In
-addition, each service definition is built only once and deployed the same way everywhere.
+delivery pipeline and depending on the acceptance criteria, it will reach production unchanged or it will be discarded.
+In addition, each service definition is built only once and deployed the same way everywhere.
 
 Service Deployment
 ==================
 
-Services are deployed to domains by a deployment tool using domain definitions.  Deployment tools must be able to
-read the domain definition, create the nodes if necessary and associate them with their role and start the configuration
-process.
+A deployment tool will interpret a domain definition, create the nodes if necessary, associate them with their role
+and start the configuration process.  The configuration process will read the node definitions and configure the
+corresponding service components. Services are ready for use when all nodes are configured.
 
-The configuration process will read the node definitions and configure the corresponding service components on each
-node.
-
-Since services are well defined by their versioned artifact, it is easier to know exactly what has been deployed in a
+Since services are well defined by their versioned artifact, it is easy to know exactly what has been deployed in a
 domain.  Testers know, for example, that they are testing an instance of the access-service-3.2.3.
 
-<img class="diagram" alt='Organisational Vision Diagram' src='/assets/drawings/soop/deploy-services-into-domains.png'/>
+<img class="diagram" alt='Organizational Vision Diagram' src='/assets/drawings/soop/deploy-services-into-domains.png'/>
 
 Domains offer name scoping as a service can be deployed several times in the same environment, for example in a
 development environment where each developer can create their own domain. On the other hand, the same service cannot be
 deployed more than once in the same domain.
 
-Service deployment tools should be able to deploy the same service definition several times and to upgrade a
-service using a new service definition version.  Depending on service specifics like database migration schema,
-service downgrade can be handled by deployment tools or by the underlying virtualization platform, for example
-using virtual machine snapshots.
+Service deployment tools should be able to deploy the same service definition several times in the same domain and
+they should be able to upgrade a service using a new service definition version.  Depending on service specifics like
+database migration schema, service downgrade can be handled by deployment tools or by the underlying virtualization
+platform, for example using virtual machine snapshots.
 
 Benefits
 ========
