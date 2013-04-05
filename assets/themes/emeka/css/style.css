@@ -60,7 +60,8 @@ img.diagram {
 /* bio text */
 div.bio {
     float: right;
-    width: 650px;
+    width: 600px;
+    padding-right: 60px;
 }
 
 img.bio {
