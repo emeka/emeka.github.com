@@ -4,7 +4,7 @@ title: "SOOP: Service Oriented Operation and Provisioning (Part one)"
 tags : [puppet, SOOP, DevOps, operation, provisioning, cloud, Financial Times]
 tweet: Take a look at #SOOP, Service Oriented Operation and Provisioning (Part one)
 hashtags: #SOOP #puppet #devops #cloud
-bitmark:
+bitmark: http://bit.ly/10ycqyX
 ---
 {% include JB/setup %}
 
