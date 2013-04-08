@@ -12,12 +12,12 @@ Introduction
 ============
 
 This post is the first of a several articles describing a model of software deployment called *Service Oriented
-Operation and Provisioning* (SOOP). This model has been developed while working at the Financial Times in London to
-solve some of their service delivery problems.
+Operation and Provisioning* (SOOP). This model has been developed while helping the Financial Times,
+one of the world’s leading global business news organisations, to improve their service delivery.
 
-In part one, I will describe the problems that we were trying to solve and the model that was developed to solve them.
-Part two will focus on the implementation, called FT Cloud, and how it was received by developers and infrastructure
-teams. Part three will present some thoughts about the model and will propose some improvements.
+In part one, I will describe the opportunities of improvement that we found and the model that was developed as
+a result.  Part two will focus on the implementation, called FT Cloud, and how it was received by developers and
+infrastructure teams. Part three will present some thoughts about the model and will propose some refinements.
 
 It is important to make a clear distinction between the model and its implementations. No implementation can save a
 flawed model but a good model can be implemented in many ways. This model is far from perfect but is a first step in the
@@ -37,25 +37,25 @@ transforms identified customer needs into delivered customer value at a reliable
 cycle time. It is this cycle time that paces the organization, causes value to flow, forces quality to be built into the
 product, and clarifies the capacity of the organization."*
 
-When we started to look at our cycle time at the end of 2010, the result was not very good. We were only able to release
-to production every four to six weeks and it was a major endeavour which often tied several people for a full sprint
-with the accompanying pain and tears.
+When we started to look at our cycle time at the end of 2010, the results were not as good as they could be. We were
+releasing to production every four to six weeks and it was a major endeavour which often tied several people for a full
+sprint.
 
 We knew that we could do better.
 
-The Problems
-============
+What Could We Improve
+=====================
 
-The problems were multiple and could be classified in two categories:
-* organizational frictions and
-* long feedback loop.
+We found several inefficiencies that could be classified in two categories:
+* too much organizational frictions and
+* a long feedback loop.
 
 The sections below will address each of these concerns separately.
 
 Organizational Frictions
 ------------------------
 
-The first problem was one of organizational frictions due to a misalignment of priorities and the dilution of
+The first inefficiency was due to organizational frictions resulting of a misalignment of priorities and the dilution of
 responsibilities between teams.
 
 In our case, it was the classic divide between operation and product teams where:
@@ -82,13 +82,14 @@ availability, they had a tendency to throw things over the wall, brushing over n
 monitoring, disaster recovery or simply operational documentation. This in turn was feeding mistrust in operation teams.
 
 It must be emphasised that the inefficiencies are not due to teams or individual competencies. Individuals in each team
-were all highly qualified professionals with an excellent knowledge of their core specialities. The problems described
-here are the result of a certain organizational structure, i.e. ownership, responsibility and control.
+were all highly qualified professionals with an excellent knowledge of their core specialities. The inefficiencies
+described here are the result of a certain organizational structure with its ownership, responsibility and control
+characteristics.
 
 Long Feedback Loop
 ------------------
 
-The second problem was the long feedback loop where defects were detected too late. Finding a defect at a developer's
+The second inefficiency was the long feedback loop where defects were detected too late. Finding a defect at a developer's
 workstation is always less expensive than discovering that same defect further down the delivery pipeline. A defect
 in production can have far reaching consequences and defects were unfortunately often found at this ultimate stage.
 
@@ -205,7 +206,7 @@ By encapsulating in one versioned artifact everything required to deploy a servi
 * there is no manual configuration,
 * we deploy in the same way everywhere from a local workstation up to production,
 * we know what we are testing,
-* problems are discovered earlier,
+* defects are discovered earlier,
 * we trust our deployment since it has been tested many times,
 * everybody (testers, developers, operations, trainers) can deploy a
 service without knowing the deployment details,
