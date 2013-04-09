@@ -15,7 +15,7 @@ This post is the first of a several articles describing a model of software depl
 Operation and Provisioning* (SOOP). This model has been developed while helping the Financial Times,
 one of the world’s leading global business news organisations, to improve their service delivery.
 
-In part one, I will describe the opportunities of improvement that we found and the model that was developed as
+In part one, we will describe the opportunities of improvement that we found and the model that was developed as
 a result.  Part two will focus on the implementation, called FT Cloud, and how it was received by developers and
 infrastructure teams. Part three will present some thoughts about the model and will propose some refinements.
 
