@@ -1,0 +1,3 @@
+Introduction
+============
+This article describes different data models used by IaaS providers like AWS, Rackspace, VMWare, GoGrid,...
