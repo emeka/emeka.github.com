@@ -4,7 +4,7 @@ title: "Open Source Cloud Service Provisioning Command Line Tools"
 tags : [DevOps, operation, provisioning, cloud, BOSH, Juju, Whirr, Pallet ]
 tweet: What are the current open source cloud service provisioning tools?
 hashtags: #devops #cloud
-bitmark:
+bitmark: http://bit.ly/ZfhQMy
 ---
 {% include JB/setup %}
 
