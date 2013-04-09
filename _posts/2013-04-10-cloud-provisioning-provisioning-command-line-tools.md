@@ -15,13 +15,7 @@ talk about provisioning full services and not individual pieces of cloud infrast
 command line tools come before any pretty management and monitoring application because the latter should be
 provisioned by the same tools as your services.
 
-After giving our definition of service, we describe our criteria and the list of tools grouped in two sections:
-* *Native Service Provisioning*, for tools that natively understand the concept of service,
-* *Node Provisioning*, for tools that provision services but do not have a native concept of service.
-
-In addition, we present a list of related tools as pointers to alternative solutions.
-
-**Note:**  This is a work in progress and this post will be augmented as time goes. Your comments are welcome as I have
+**Note:**  This is a work in progress and this post will be augmented as time goes. Your comments are welcome as we have
 certainly overlooked some projects.
 
 Service
@@ -38,7 +32,7 @@ Criteria
 Here are our initial criteria:
 * we should be able to provision a multi node service on the cloud executing one command line,
 * the tool must be compatible with Amazon Web Services (AWS), OpenStack and VMWare,
-* the configuration must be file based as opposite to be buried in a database,
+* the configuration must be file based and not buried in a database,
 * it must be an active open source project.
 
 Native Service Provisioning
@@ -93,6 +87,6 @@ Conclusion
 ==========
 We have given the current list of open source cloud service provisioning command line tools.  We have insisted on having
 a first class service concept because services deliver the value.  We have found
-that very few of tools have it.
+that very few open source tools have it.
 
 
