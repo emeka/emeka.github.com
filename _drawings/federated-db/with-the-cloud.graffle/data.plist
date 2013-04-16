@@ -47,10 +47,609 @@
 	<string>Emeka</string>
 	<key>DisplayScale</key>
 	<string>1.000 cm = 10.000 mm</string>
+	<key>ExportShapes</key>
+	<array>
+		<dict>
+			<key>InspectorGroup</key>
+			<real>255</real>
+			<key>ShapeImageRect</key>
+			<string>{{2, 2}, {22, 22}}</string>
+			<key>ShapeName</key>
+			<string>83C7900C-31CF-48A7-9E7F-ABAA24ED5A2C-4775-00010832AD361AFB</string>
+			<key>ShouldExport</key>
+			<string>YES</string>
+			<key>StrokePath</key>
+			<dict>
+				<key>elements</key>
+				<array>
+					<dict>
+						<key>element</key>
+						<string>MOVETO</string>
+						<key>point</key>
+						<string>{0.5, 0.5}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.430454, 0.49882399999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.36124499999999998, 0.49530299999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.29270699999999999, 0.48945300000000003}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.22517200000000001, 0.48130299999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.158967, 0.47089300000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.094411400000000006, 0.45827200000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.031818399999999997, 0.44350099999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.028509400000000001, 0.426653}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.086280099999999998, 0.407808}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.14121400000000001, 0.38705800000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.193046, 0.36450300000000002}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.24152399999999999, 0.34025300000000003}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.28641499999999998, 0.31442399999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.32750099999999999, 0.28714200000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.36458299999999999, 0.25853799999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.397482, 0.22875100000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.426039, 0.19792599999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.45011499999999999, 0.166211}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.46959499999999998, 0.13375899999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.48438300000000001, 0.100729}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.49440800000000001, 0.067278599999999994}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.49962200000000001, 0.033570900000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.5, -0.00023138499999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.49553999999999998, -0.033964599999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.48626200000000003, -0.067465800000000006}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.47221299999999999, -0.10057199999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.45345999999999997, -0.13312499999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.43009399999999998, -0.164965}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.40222799999999997, -0.195939}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.36999700000000002, -0.22589699999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.33355600000000002, -0.254695}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.29308200000000001, -0.282192}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.24877099999999999, -0.30825599999999997}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.20083699999999999, -0.33276099999999997}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.14951300000000001, -0.35558800000000002}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.0950458, -0.37662600000000002}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.037699700000000003, -0.39577400000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.022248, -0.41293999999999997}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.084507499999999999, -0.42803999999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.14877699999999999, -0.441}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.21474499999999999, -0.45175999999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.28209400000000001, -0.46026499999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.350497, -0.466476}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.34006700000000001, -0.5}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.5, -0.43802799999999997}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.38178800000000002, -0.36590400000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.37135800000000002, -0.39942800000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.3125, -0.39408399999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.254548, -0.38676500000000003}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.19778399999999999, -0.37750699999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.142483, -0.36635499999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.088911100000000007, -0.35336200000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.037328199999999999, -0.338592}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.0120161, -0.32211499999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.058883199999999997, -0.304012}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.103046, -0.28437099999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.144291, -0.26328499999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.182419, -0.24085799999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.21724599999999999, -0.217198}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.24860199999999999, -0.19241900000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.27633600000000003, -0.16664100000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.300313, -0.139988}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.32041900000000001, -0.112591}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.33655499999999999, -0.084580900000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.34864400000000001, -0.056093700000000003}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.35662700000000003, -0.027267199999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.36046499999999998, 0.0017589299999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.36014000000000002, 0.030844699999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.35565400000000003, 0.059849100000000002}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.34702699999999997, 0.0886319}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.33430199999999999, 0.11705400000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.31754100000000002, 0.14497699999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.29682399999999998, 0.172267}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.27225199999999999, 0.198791}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.24394299999999999, 0.22442100000000001}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.212036, 0.249033}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.17668300000000001, 0.272509}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.13805600000000001, 0.294734}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.096341800000000005, 0.31560100000000002}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.051742299999999998, 0.33500799999999997}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.0044734500000000003, 0.35286299999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.045236100000000001, 0.36907800000000002}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.097145800000000004, 0.383575}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.151005, 0.396285}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.20655299999999999, 0.40714499999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.26351999999999998, 0.416103}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.32163199999999997, 0.42311599999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.380606, 0.428149}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.44015799999999999, 0.43117899999999998}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.5, 0.43219099999999999}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>CLOSE</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>MOVETO</string>
+						<key>point</key>
+						<string>{0.5, 0.5}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>TextBounds</key>
+			<string>{{0, 0}, {1, 1}}</string>
+		</dict>
+	</array>
 	<key>GraphDocumentVersion</key>
 	<integer>8</integer>
 	<key>GraphicsList</key>
 	<array>
+		<dict>
+			<key>Bounds</key>
+			<string>{{230.67516708374009, 256.32482756958103}, {85.982994079589844, 191.33332824707031}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>824</integer>
+			<key>Notes</key>
+			<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs24 \cf0 From 180.0\'ba\
+To 360.0\'ba}</string>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>83C7900C-31CF-48A7-9E7F-ABAA24ED5A2C-4775-00010832AD361AFB</string>
+			<key>VFlip</key>
+			<string>YES</string>
+		</dict>
 		<dict>
 			<key>Bounds</key>
 			<string>{{382.500010172526, 437.00000000000034}, {9, 17}}</string>
@@ -2035,8 +2634,8 @@
 					<integer>1239</integer>
 					<key>Points</key>
 					<array>
-						<string>{421.63585299372863, 654.1724218089787}</string>
-						<string>{410.43430777899971, 634.47073407804703}</string>
+						<string>{421.63585247603328, 654.1724218246469}</string>
+						<string>{410.43430656542643, 634.47073480391441}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2105,8 +2704,8 @@
 					<integer>1241</integer>
 					<key>Points</key>
 					<array>
-						<string>{360.91793837991321, 654.18365317626728}</string>
-						<string>{371.06790961376129, 638.0213506831069}</string>
+						<string>{360.91794316894504, 654.18365329507924}</string>
+						<string>{371.06791786772544, 638.02135856748566}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2138,8 +2737,8 @@
 					<integer>1242</integer>
 					<key>Points</key>
 					<array>
-						<string>{403.90256881341224, 679.98154551733296}</string>
-						<string>{413.74393326407784, 672.89396951151593}</string>
+						<string>{404.01724695151353, 679.98328424856163}</string>
+						<string>{413.94614332755145, 672.89699034585954}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2173,8 +2772,8 @@
 					<integer>1243</integer>
 					<key>Points</key>
 					<array>
-						<string>{378.09743118658798, 679.98154551733296}</string>
-						<string>{368.25606673592239, 672.89396951151593}</string>
+						<string>{377.9827530484867, 679.98328424856163}</string>
+						<string>{368.05385667244877, 672.89699034585954}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2765,8 +3364,8 @@
 					<integer>1212</integer>
 					<key>Points</key>
 					<array>
-						<string>{421.2795104930608, 203.48364413290776}</string>
-						<string>{410.62259372452166, 220.54305143880029}</string>
+						<string>{421.27819564178753, 203.48361720856406}</string>
+						<string>{410.61994934398524, 220.54129435570962}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2868,8 +3467,8 @@
 					<integer>1215</integer>
 					<key>Points</key>
 					<array>
-						<string>{404.19716458842436, 177.68318250108283}</string>
-						<string>{414.13616874490873, 184.76932435339111}</string>
+						<string>{404.1971645884243, 177.68318250108283}</string>
+						<string>{414.13616874490867, 184.76932435339106}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2903,8 +3502,8 @@
 					<integer>1216</integer>
 					<key>Points</key>
 					<array>
-						<string>{378.13616874490867, 177.68318250108283}</string>
-						<string>{368.1971645884243, 184.76932435339111}</string>
+						<string>{378.13616874490873, 177.68318250108283}</string>
+						<string>{368.19716458842436, 184.76932435339106}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2938,8 +3537,8 @@
 					<integer>1217</integer>
 					<key>Points</key>
 					<array>
-						<string>{391.16666666666652, 177.89292010426968}</string>
-						<string>{391.16666666666652, 184.55958675020398}</string>
+						<string>{391.16666666666652, 177.89292010426971}</string>
+						<string>{391.16666666666652, 184.5595867502042}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -3600,8 +4199,8 @@
 													<integer>1273</integer>
 													<key>Points</key>
 													<array>
-														<string>{643.98330869274662, 442.5188673591399}</string>
-														<string>{636.89703335826243, 452.44899980730281}</string>
+														<string>{643.98346599898821, 442.5292933237738}</string>
+														<string>{636.89731029273776, 452.46737867022665}</string>
 													</array>
 													<key>Style</key>
 													<dict>
@@ -3635,8 +4234,8 @@
 													<integer>1274</integer>
 													<key>Points</key>
 													<array>
-														<string>{643.98367486596601, 416.45685204979122}</string>
-														<string>{636.89767887311882, 406.50819965761713}</string>
+														<string>{643.98350394301133, 416.46819194054785}</string>
+														<string>{636.89737712786996, 406.52818840994792}</string>
 													</array>
 													<key>Style</key>
 													<dict>
@@ -3670,8 +4269,8 @@
 													<integer>1275</integer>
 													<key>Points</key>
 													<array>
-														<string>{643.77374758878477, 429.48086575762289}</string>
-														<string>{637.1070769850802, 429.46743820974677}</string>
+														<string>{643.77374659170994, 429.49771848310007}</string>
+														<string>{637.10707985977569, 429.49611741858985}</string>
 													</array>
 													<key>Style</key>
 													<dict>
@@ -4334,8 +4933,8 @@
 													<integer>1303</integer>
 													<key>Points</key>
 													<array>
-														<string>{139.01669130725318, 442.51886735901923}</string>
-														<string>{146.10296664173751, 452.44899980709027}</string>
+														<string>{139.01653400101165, 442.52929332376124}</string>
+														<string>{146.10268970726213, 452.46737867020465}</string>
 													</array>
 													<key>Style</key>
 													<dict>
@@ -4369,8 +4968,8 @@
 													<integer>1304</integer>
 													<key>Points</key>
 													<array>
-														<string>{139.01632513403376, 416.45685204987376}</string>
-														<string>{146.10232112688109, 406.50819965776259}</string>
+														<string>{139.01649605698844, 416.46819194055638}</string>
+														<string>{146.10262287213001, 406.52818840996287}</string>
 													</array>
 													<key>Style</key>
 													<dict>
@@ -4404,8 +5003,8 @@
 													<integer>1305</integer>
 													<key>Points</key>
 													<array>
-														<string>{139.22625241121506, 429.48086575762289}</string>
-														<string>{145.89292301491989, 429.46743820974677}</string>
+														<string>{139.22625340828992, 429.49771848310007}</string>
+														<string>{145.89292014022425, 429.49611741858985}</string>
 													</array>
 													<key>Style</key>
 													<dict>
@@ -5226,6 +5825,8 @@
 	<dict>
 		<key>ShowsGrid</key>
 		<string>YES</string>
+		<key>SnapsToGrid</key>
+		<string>YES</string>
 	</dict>
 	<key>GuidesLocked</key>
 	<string>NO</string>
@@ -5280,7 +5881,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-04-10 16:33:07 +0000</string>
+	<string>2013-04-16 09:14:59 +0000</string>
 	<key>Modifier</key>
 	<string>Emeka</string>
 	<key>NotesVisible</key>
@@ -5360,8 +5961,6 @@
 				<string>Canvas 1</string>
 			</dict>
 		</array>
-		<key>Frame</key>
-		<string>{{118, -2}, {1188, 878}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -5374,8 +5973,6 @@
 		<false/>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
-		<key>VisibleRegion</key>
-		<string>{{0, 211}, {782.66666666666663, 492.66666666666663}}</string>
 		<key>Zoom</key>
 		<real>1.5</real>
 		<key>ZoomValues</key>
