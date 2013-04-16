@@ -46,13 +46,14 @@ end #JB
 desc "Exporting drawings in #{CONFIG['drawings_src']} to #{CONFIG['drawings']}"
 task :drawings do
   for src in Dir.glob("#{CONFIG['drawings_src']}/**/*.graffle") do
-    dest=File.join("#{CONFIG['drawings_dest']}", src.sub(CONFIG['drawings_src'], ''))
+    dest = File.join("#{CONFIG['drawings_dest']}", src.sub(CONFIG['drawings_src'], ''))
     dest = File.join(File.dirname(dest), File.basename(dest, ".graffle") + '.png')
-
-    src = File.absolute_path(src)
-    dest = File.absolute_path(dest)
-
-    %x[ osascript  "#{CONFIG['drawings_src']}/graffle.scpt" '/Applications/OmniGraffle Professional 5.app' '' #{src} #{dest}]
+    if !File.exists?(dest) or File.new(src).mtime > File.new(dest).mtime
+      puts "Generating #{dest}"
+      src = File.absolute_path(src)
+      dest = File.absolute_path(dest)
+      %x[ osascript  "#{CONFIG['drawings_src']}/graffle.scpt" '/Applications/OmniGraffle Professional 5.app' '' #{src} #{dest}]
+    end
   end
 end
 
