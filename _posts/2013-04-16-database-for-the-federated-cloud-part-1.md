@@ -2,9 +2,9 @@
 layout: post
 title: "Database for the Federated Cloud (Part One)"
 tags : [cloud, database, federated cloud ]
-tweet:
+tweet: Take a look at this post on database for the federated cloud
 hashtags: #cloud #database
-bitmark:
+bitmark: http://bit.ly/1195OaK
 ---
 {% include JB/setup %}
 
