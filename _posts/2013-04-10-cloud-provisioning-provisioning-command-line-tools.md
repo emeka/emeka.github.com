@@ -63,6 +63,7 @@ different IaaS and a mix of [knife-server](https://github.com/fnichol/knife-serv
 library.
 * [Salt Stack](saltstack.com) see OpenCredo [post](http://www.opencredo.com/blog/a-dive-into-salt-stack) about it.
 * [CFEngine](http://cfengine.com/).
+* [Ansible](http://ansible.cc/).
 
 Related Tools
 =============
