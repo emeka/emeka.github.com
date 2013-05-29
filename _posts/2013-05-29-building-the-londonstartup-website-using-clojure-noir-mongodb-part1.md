@@ -4,7 +4,7 @@ title: "Building the London Startup Directory website using Clojure, Noir and Mo
 tags : [London Startup, Clojure, Noir, MondoDB, Heroku]
 tweet: Take a look at @EmekaMosanya experience building a site with Clojure, Noir and MongoDB
 hashtags: #clojure #noir #mongodb
-bitmark: http://bit.ly/17sSVhu
+bitmark: http://bit.ly/13YSdVz
 ---
 
 {% include JB/setup %}
