@@ -2,9 +2,9 @@
 layout: post
 title: "Building the London Startup Directory website using Clojure, Noir and MongoDB on Heroku - Part Two"
 tags : [London Startup, Clojure, Noir, MondoDB, Heroku]
-tweet: Take a look at @EmekaMosanya experience building a site with Clojure, Noir and MongoDB
-hashtags: #clojure #noir #mongodb
-bitmark:
+tweet: Take a look at @EmekaMosanya experience integrating Clojure Noir and MongoDB on Heroku
+hashtags: #clojure #noir #mongodb #heroku
+bitmark: http://bit.ly/14hdWrQ
 ---
 
 {% include JB/setup %}
