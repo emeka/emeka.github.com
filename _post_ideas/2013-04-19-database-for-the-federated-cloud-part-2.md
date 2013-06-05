@@ -16,6 +16,11 @@ This is part two of an article on database for the federated cloud.
 [Part one](/2013/04/16/database-for-the-federated-cloud-part-1) presented our model.  Here we will look at
 existing database providers and see how they can fit it.
 
+Transactions
+============
+
+http://www.enterpriseintegrationpatterns.com/ramblings/18_starbucks.html
+
 Technologies
 ============
 
