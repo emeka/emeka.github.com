@@ -25,6 +25,8 @@ registrar to confirm their data or by listening the interworld to check if the s
 In part one, I will focus on creating a staging and production environment on Heroku to run a skeleton of the new
 website.  Part two will concentrate on the MongoDB connection.
 
+The code is a work in progress available on [github](http://github/emeka/londonstartup)
+
 Noir Toolset
 ============
 Install [Leiningen](https://github.com/technomancy/leiningen):
