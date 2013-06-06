@@ -451,4 +451,4 @@ This post described my first steps using MongoDB with Clojure.  We have seen how
 write a model layer for a very simple application and test it. Finally, we have configured a MongoDB instance in our
 Heroku environment and successfully run the same tests remotely.
 
-In the next part, we will develop our application view.
+In the next part, we will develop our application controller and views.
